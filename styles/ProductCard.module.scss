@@ -1,0 +1,19 @@
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.image {
+    text-align: center;
+    img {
+        max-width: 100%;
+        max-height: 250px;
+    }
+}
+
+.detail {
+    padding: 10px;
+    margin-top: auto;
+}
