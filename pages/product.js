@@ -1,5 +1,5 @@
 
-function product() {
+function Product() {
     return (
         <div>
             <h1>I am Product</h1>
@@ -7,4 +7,4 @@ function product() {
     )
 }
 
-export default product
+export default Product

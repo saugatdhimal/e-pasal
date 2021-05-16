@@ -8,12 +8,12 @@
 }
 
 .navLeft {
-flex: 1;
-padding-left: 100px;
-img {
-  width: 100px;
-  margin-top: 10px;
-}
+  flex: 1;
+  padding-left: 100px;
+  img {
+    width: 100px;
+    margin-top: 10px;
+  }
 }
 
 .navRight {
@@ -34,4 +34,8 @@ img {
     border-bottom: 2px solid red;
     color: red;
   }
+  .active {
+  border-bottom: 2px solid red;
+  color: red;
+}
 }
