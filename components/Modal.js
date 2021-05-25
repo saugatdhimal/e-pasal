@@ -1,6 +1,6 @@
 import styles from "../styles/Modal.module.scss";
 
-function Modal({showModal, closeModal}) {
+function Modal({showModal, closeModal, deleteProduct}) {
 
 	if(!showModal) {
 		return null
@@ -13,7 +13,7 @@ function Modal({showModal, closeModal}) {
 			<p>Are You sure, You want to delete this Product?</p>
 			<div className={styles.buttons}>
 				<button onClick={closeModal}>Cancel</button>
-				<button>Yes</button>
+				<button onClick={deleteProduct}>Yes</button>
 			</div>
             </div>
         </div>
