@@ -1,6 +1,6 @@
 import styles from "../styles/Modal.module.scss";
 
-function Modal({showModal, closeModal, deleteProduct}) {
+function Modal({name, showModal, closeModal, deleteProduct}) {
 
 	if(!showModal) {
 		return null
@@ -9,7 +9,7 @@ function Modal({showModal, closeModal, deleteProduct}) {
     return (
         <div id="myModal" className={styles.modal}>
             <div className={styles.modalContent}>
-			<h2 className={styles.title}>I am Product</h2>
+			<h2 className={styles.title}>{name}</h2>
 			<p>Are You sure, You want to delete this Product?</p>
 			<div className={styles.buttons}>
 				<button onClick={closeModal}>Cancel</button>

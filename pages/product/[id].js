@@ -30,7 +30,7 @@ function Product({product}) {
             <div className={styles.container}>
                 <h1>{product.name}</h1>
                 <img src={product.imageUrl} alt={product.name} />
-                <p>{product.price}</p>
+                <p>$ {product.price}</p>
                 <p>{product.description}</p>
                 <div>
                     <input type='number' min='1' placeholder='Quantity' />
@@ -42,6 +42,7 @@ function Product({product}) {
                 showModal={showModal}
                 closeModal={handleCloseModal}
                 deleteProduct={deleteProduct}
+				name={product.name}
             />
         </>
     );
