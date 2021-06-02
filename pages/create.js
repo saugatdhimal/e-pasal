@@ -60,6 +60,7 @@ function Create() {
 
     return (
         <form onSubmit={(e) => handleSubmit(e)} className={styles.form}>
+			<h1 className={styles.title}>Create Product</h1>
             <input
                 type='text'
                 name='name'

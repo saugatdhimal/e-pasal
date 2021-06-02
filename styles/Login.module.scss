@@ -27,10 +27,6 @@
 	   border-color: #000732;
 	}
 
-	.image {
-		width: 100%;
-	}
-
 	.button {
 		width: 100%;
 		height: 40px;
@@ -49,5 +45,27 @@
 		border-color: gold;
 		background-color: gold;
 		
+	}
+}
+
+.accountSignUp {
+	background-color:#000732;
+	color: gold;
+	width: 450px;
+	max-width: 90vw;
+	padding: 10px;
+	margin: auto;
+	font-size: 1.125em;
+	font-weight: 600;
+	text-align: center;
+	border-radius: 4px;
+	box-shadow: 0 4px 15px gray;
+
+	.signUp {
+		color: white;	
+	}
+
+	.signUp:hover {
+		color: red;
 	}
 }
