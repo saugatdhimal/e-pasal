@@ -17,7 +17,7 @@ export default async (req, res) => {
 
 const getAllProducts = async (req, res) => {
     try {
-        Product.find().then((data) => res.status(200).json(data));
+        await Product.find().then((data) => res.status(200).json(data));
     } catch (error) {
         console.log(error);
     }
